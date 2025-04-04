@@ -1,4 +1,4 @@
- <img width="200" height="200" style="display: block; border-radius: 9999px;" src="images/icon.png">
+ <img width="200" height="200" style="display: block; border-radius: 9999px;" src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/icon.png?raw=true">
 
 # Global Icon Pack
 An Xposed module for applying icon packs globally
@@ -13,10 +13,10 @@ This module is designed to extend the icon packs throughout the entire system.
 
 ## Preview
 <div>
-    <img src="images/phoneScreenshots/1.png" width="200" />
-    <img src="images/phoneScreenshots/2.png" width="200" />
-    <img src="images/phoneScreenshots/3.png" width="200" />
-    <img src="images/phoneScreenshots/4.png" width="200" />
+    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/1.png?raw=true" width="200" />
+    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/2.png?raw=true" width="200" />
+    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/3.png?raw=true" width="200" />
+    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/4.png?raw=true" width="200" />
 </div>
 
 ## Requirements
