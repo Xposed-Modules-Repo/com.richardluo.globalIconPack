@@ -22,7 +22,7 @@ This module is designed to extend the icon packs throughout the entire system.
 
 ## Requirements
 * LSPosed
-* Android 11+ (I tested on android 14, 15)
+* Android 12+ (I tested on android 14, 15)
 * Some features require AOSP-like OS
 
 ## Installation
@@ -31,10 +31,18 @@ This module is designed to extend the icon packs throughout the entire system.
 3. Open Global Icon Pack, choose an icon pack.
 4. Open the three dot menu, click each of `Restart xxx`.
 
-* You can long press icon in icon chooser bottom sheet to try as as calendar icon.
-* Recent screen will use your default launcher unless you use quickswitch. So you will need to select pixel launcher for that to work.
-* Pixel launcher saves its icon database in `/data/data/com.google.android.apps.nexuslauncher/databases/app_icons.db`.
+## Notes
+* Use share mode if possible. The provider is provided as a fallback in case share mode doesn't work. Local mode is only reserved for testing and you can't use icon variants with this mode (However it maybe faster if there are only a few icon records).
+* If you are using share mode, after uninstallation, you must remove `/data/misc/com.richardluo.globalIconPack/iconPack.db` manually.
+* Sometimes OTA may reset the permissions of share mode database. It is recommended that you deselect apps in LSPosed, after OTA, you select them again, and open GIP at least once (to setup the permissions), then click each of `Restart xxx`.
+<!-- -->
+* You can long press icon in icon chooser bottom sheet to try as calendar icon.
 * In icon variant, the option `Modified` indicates that you have made changes to the icon variants. If enabled, when the icon pack updates, it will only add new icons instead of replacing all icons. Note that this could cause issues if any icon entry is missing in the new version!
+<!-- -->
+* If you are using a different launcher3 based launcher, please input its package name into the launcher package name in pixel settings. If it is not launcher3 based, some functions may not work.
+* Recent screen will use your default launcher unless you use quickswitch, so you will need to select pixel launcher for that to work.
+* Pixel launcher saves its icon database in `/data/data/com.google.android.apps.nexuslauncher/databases/app_icons.db`.
+<!-- -->
 * For icon pack developers, you can create a shortcut record by appending `@` to the end of package name, and shortcut id as classname.
 
 ## Known Issues
@@ -53,6 +61,9 @@ The list may not be latest.
   - elisenlebkuch
 - Russian
   - Кирилл Гук
+  - Alohaa666
+- Chinese Traditional
+  - Jia-Bin
 
 ## Disclaimer
 > [!WARNING]
