@@ -1,4 +1,4 @@
- <img width="200" height="200" style="display: block; border-radius: 9999px;" src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/icon.png?raw=true">
+ <img width="200" height="200" style="display: block; border-radius: 9999px;" src="metadata/en-US/images/icon.png">
 
 # Global Icon Pack
 An Xposed module for applying icon packs globally
@@ -13,16 +13,16 @@ This module is designed to extend the icon packs throughout the entire system.
 
 ## Preview
 <div>
-    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/1.png?raw=true" width="200" />
-    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/2.png?raw=true" width="200" />
-    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/3.png?raw=true" width="200" />
-    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/4.png?raw=true" width="200" />
-    <img src="https://github.com/RichardLuo0/global-icon-pack-android/blob/master/metadata/en-US/images/phoneScreenshots/5.png?raw=true" width="200" />
+    <img src="metadata/en-US/images/phoneScreenshots/1.png" width="200" />
+    <img src="metadata/en-US/images/phoneScreenshots/2.png" width="200" />
+    <img src="metadata/en-US/images/phoneScreenshots/3.png" width="200" />
+    <img src="metadata/en-US/images/phoneScreenshots/4.png" width="200" />
+    <img src="metadata/en-US/images/phoneScreenshots/5.png" width="200" />
 </div>
 
 ## Requirements
 * LSPosed
-* Android 12+ (I tested on android 14, 15)
+* Android 8.1+ (I tested on Android 14, 15. @Mickmick21 tested on Android 10, 12L.)
 * Some features require AOSP-like OS
 
 ## Installation
@@ -59,11 +59,17 @@ The list may not be latest.
   - RichardLuo
 - German
   - elisenlebkuch
+  - Max
 - Russian
   - Кирилл Гук
-  - Alohaa666
+  - Artem Dreznel
 - Chinese Traditional
   - Jia-Bin
+- Turkish
+  - Holi
+- French
+  - MickMick21
+  - Jules
 
 ## Disclaimer
 > [!WARNING]
